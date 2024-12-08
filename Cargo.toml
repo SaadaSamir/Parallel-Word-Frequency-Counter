@@ -1,0 +1,9 @@
+[package]
+name = "word_frequency_counter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.7"         # For parallel iterators
+indicatif = "0.17"    # For progress bar
+
